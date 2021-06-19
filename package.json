@@ -2,6 +2,8 @@
     "name": "simple-light",
     "displayName": "Simple light",
     "description": "Simple light theme",
+    "publisher": "Filip Seman",
+    "license": "MIT",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.57.0"
