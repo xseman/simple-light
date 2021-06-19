@@ -1,10 +1,18 @@
 {
     "name": "simple-light",
+    "version": "0.0.1",
+    "license": "MIT",
     "displayName": "Simple light",
     "description": "Simple light theme",
     "publisher": "xseman",
-    "license": "MIT",
-    "version": "0.0.1",
+    "author": {
+        "name": "Filip Seman",
+        "email": "seman.filip@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://gitlab.com/xseman/vscode-simple-light-theme"
+    },
     "engines": {
         "vscode": "^1.57.0"
     },
