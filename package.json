@@ -1,10 +1,11 @@
 {
     "name": "simple-light",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "license": "MIT",
     "displayName": "Simple light",
     "description": "Simple light theme",
     "publisher": "xseman",
+    "icon": "icon.png",
     "author": {
         "name": "Filip Seman",
         "email": "seman.filip@gmail.com"
@@ -27,5 +28,12 @@
                 "path": "./themes/Simple light-color-theme.json"
             }
         ]
+    },
+    "scripts": {
+        "package": "vsce package",
+        "publish": "vsce publish"
+    },
+    "dependencies": {
+        "vsce": "^1.93.0"
     }
 }
