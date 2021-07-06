@@ -14,8 +14,13 @@ on that. The goal of this theme is to have the minimum meaningful  colors.
 Preview
 -------
 
-![TypeScript](./screenshots/typescript.png)
+- Font used [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+- Icons used [vscode-icons](https://github.com/vscode-icons/vscode-icons)
 
-![HTML](./screenshots/html.png)
+![React](./examples/tsx.png)
 
-![CSS](./screenshots/css.png)
+![TypeScript](./examples/ts.png)
+
+![HTML](./examples/html.png)
+
+![CSS](./examples/css.png)
