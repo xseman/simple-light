@@ -35,8 +35,7 @@
         {
             "name": "New expression",
             "scope": [
-                "keyword.operator.new.ts",
-                "keyword.operator.new.js"
+                "keyword.operator.new",
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -46,23 +45,30 @@
         {
             "name": "Round bracets",
             "scope": [
-                "meta.brace.round.js",
-                "meta.brace.round.ts",
-                "punctuation.definition.block.js",
-                "punctuation.definition.parameters.end.js",
-                "punctuation.definition.parameters.end.ts",
-                "punctuation.definition.block.ts"
+                "meta.brace.round",
+                "punctuation.definition.block",
+                "punctuation.definition.parameters.end",
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#777"
+                "foreground": "#09466e"
             }
         },
         {
             "name": "Conditionals",
             "scope": [
-                "keyword.control.conditional.ts",
-                "keyword.control.conditional.js"
+                "keyword.control.conditional",
+            ],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#000"
+            }
+        },
+        {
+            "name": "Operators",
+            "scope": [
+                "keyword.operator.assignment.compound",
+                "keyword.operator.arithmetic"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -72,56 +78,53 @@
         {
             "name": "Imports",
             "scope": [
-                "keyword.control.import.ts",
-                "keyword.control.import.js",
-                "constant.language.import-export-all.ts",
-                "constant.language.import-export-all.js"
+                "constant.language.import-export-all"
             ],
             "settings": {
-                "fontStyle": "bold",
-                "foreground": "#003b72"
-            }
-        },
-        {
-            "name": "Control as keyword",
-            "scope": "keyword.control.as.ts",
-            "settings": {
-                "fontStyle": "bold",
-                "foreground": "#862F95"
+                "fontStyle": "",
+                "foreground": "#09466e"
             }
         },
         {
             "name": "Meta",
             "scope": [
-                "meta.var.expr.js",
-                "meta.block.js",
-                "meta.arrow.js",
-                "meta.function.ts",
-                "meta.block.ts",
-                "meta.function.ts"
+                "meta.var.expr",
+                "meta.arrow",
+                "meta.block",
+                "meta.function",
             ],
             "settings": {
-                "fontStyle": "bold",
-                "foreground": "#003b72"
+                "foreground": "#09466e"
             }
         },
         {
-            "name": "Object keys, TS grammar specific",
+            "name": "Variables",
             "scope": [
-                "meta.object-literal.key.js",
-                "meta.object-literal.key.ts",
+                "meta.definition.variable",
+                "meta.var-single-variable.expr",
+                "meta.var.expr",
+                "variable.other.constant",
+            ],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#09466e"
+            }
+        },
+        {
+            "name": "Object keys",
+            "scope": [
                 "meta.object-literal.key",
                 "meta.object-literal.key entity.name.function"
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#003b72"
+                "foreground": "#09466e"
             }
         },
         {
             "name": "Try catch",
             "scope": [
-                "keyword.control.trycatch.js"
+                "keyword.control.trycatch"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -129,32 +132,27 @@
             }
         },
         {
-            "name": "Comments",
+            "name": "Comments: Documentation",
             "scope": [
+                "comment.block.documentation",
+                "comment.block.preprocessor",
+                "comment.documentation",
                 "comment",
                 "punctuation.definition.comment"
             ],
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#AAA"
+                "foreground": "#969696"
             }
         },
         {
-            "name": "Comments: Preprocessor",
-            "scope": "comment.block.preprocessor",
-            "settings": {
-                "fontStyle": "",
-                "foreground": "#AAA"
-            }
-        },
-        {
-            "name": "Comments: Documentation",
+            "name": "As keyword",
             "scope": [
-                "comment.documentation",
-                "comment.block.documentation"
+                "keyword.control.as"
             ],
             "settings": {
-                "foreground": "#AAA"
+                "fontStyle": "",
+                "foreground": "#000000"
             }
         },
         {
@@ -171,9 +169,14 @@
         },
         {
             "name": "Operators",
-            "scope": "keyword.operator",
+            "scope": [
+                "keyword.operator.arithmetic",
+                "keyword.operator.assignment.compound",
+                "keyword.operator"
+            ],
             "settings": {
-                "foreground": "#777"
+                "fontStyle": "",
+                "foreground": "#000"
             }
         },
         {
@@ -199,14 +202,59 @@
             }
         },
         {
-            "name": "Variables",
+            "name": "String quoted",
             "scope": [
-                "variable",
-                "support.variable"
+                "string.quoted.single",
+                "string.quoted.double",
+                "string.template"
+            ],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#008044"
+            }
+        },
+        {
+            "name": "Numbers",
+            "scope": [
+                "constant.numeric.decimal"
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#003b72"
+                "foreground": "#9c6b00"
+            }
+        },
+        {
+            "name": "Variables",
+            "scope": [
+                "variable",
+                "support.variable",
+                "variable.other.object"
+            ],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#09466e"
+            }
+        },
+        {
+            "name": "String literal expression",
+            "scope": [
+                "punctuation.definition.template-expression.begin",
+                "punctuation.definition.template-expression.end",
+                "meta.template.expression"
+            ],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#09466e"
+            }
+        },
+        {
+            "name": "Return",
+            "scope": [
+                "keyword.control.flow"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#09466e"
             }
         },
         {
@@ -317,9 +365,13 @@
             "name": "HTML: Tags",
             "scope": [
                 "meta.tag",
-                "punctuation.definition.tag.html",
                 "punctuation.definition.tag.begin.html",
-                "punctuation.definition.tag.end.html"
+                "punctuation.definition.tag.begin.jsx",
+                "punctuation.definition.tag.begin.tsx",
+                "punctuation.definition.tag.end.jsx",
+                "punctuation.definition.tag.end.tsx",
+                "punctuation.definition.tag.end.html",
+                "punctuation.definition.tag.html",
             ],
             "settings": {
                 "foreground": "#2E2A2E"
