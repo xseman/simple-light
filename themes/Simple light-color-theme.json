@@ -9,8 +9,8 @@
         "editor.foreground": "#000",
         "editor.lineHighlightBackground": "#FFFAE3",
         "editor.selectionHighlightBackground": "#F6EBBC",
-        "editor.wordHighlightBackground": "#0066ff2a",
-        "editor.wordHighlightStrongBackground": "#0066ff2a",
+        "editor.wordHighlightBackground": "#0066FF2A",
+        "editor.wordHighlightStrongBackground": "#0066FF2A",
         "editorGutter.background": "#FFFFFF",
         "editorLineNumber.activeForeground": "#000",
         "editorLineNumber.foreground": "#C1C1C1",
@@ -33,9 +33,102 @@
     },
     "tokenColors": [
         {
+            "name": "Shell: & operator",
+            "scope": [
+                "keyword.operator.list.shell"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#000"
+            }
+        },
+        {
+            "name": "Shell: Execution to variable",
+            "scope": [
+                "punctuation.definition.string.begin.shell",
+                "punctuation.definition.string.end.shell"
+            ],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#000"
+            }
+        },
+        {
+            "name": "Shell: Variables",
+            "scope": [
+                "meta.scope.while-loop.shell"
+            ],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#09466E"
+            }
+        },
+        {
+            "name": "Shell: Interpolation variables",
+            "scope": [
+                "string.interpolated.dollar.shell",
+                "punctuation.definition.variable.shell",
+                "variable.other.positional.shell"
+            ],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#000"
+            }
+        },
+        {
+            "name": "Shell: Exec",
+            "scope": [
+                "support.function.builtin.shell"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#09466E"
+            }
+        },
+        {
+            "name": "Shell: Math",
+            "scope": [
+                "string.other.math.shell"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#000"
+            }
+        },
+        {
+            "name": "Shell: Loops",
+            "scope": [
+                "punctuation.definition.string.begin.shell"
+            ],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#000"
+            }
+        },
+        {
+            "name": "Shell: Logical expression",
+            "scope": [
+                "meta.scope.logical-expression.shell"
+            ],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#000"
+            }
+        },
+        {
+            "name": "Shell: Logical operator",
+            "scope": [
+                "keyword.operator.logical.shell"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#000"
+            }
+        },
+        {
             "name": "New expression",
             "scope": [
-                "keyword.operator.new",
+                "keyword.operator.new"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -47,17 +140,20 @@
             "scope": [
                 "meta.brace.round",
                 "punctuation.definition.block",
+                "punctuation.definition.parameters.begin",
                 "punctuation.definition.parameters.end",
+                "punctuation.section.embedded.begin",
+                "punctuation.section.embedded.end",
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#09466e"
+                "foreground": "#000"
             }
         },
         {
             "name": "Conditionals",
             "scope": [
-                "keyword.control.conditional",
+                "keyword.control.conditional"
             ],
             "settings": {
                 "fontStyle": "",
@@ -82,7 +178,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#09466e"
+                "foreground": "#09466E"
             }
         },
         {
@@ -91,10 +187,10 @@
                 "meta.var.expr",
                 "meta.arrow",
                 "meta.block",
-                "meta.function",
+                "meta.function"
             ],
             "settings": {
-                "foreground": "#09466e"
+                "foreground": "#09466E"
             }
         },
         {
@@ -103,11 +199,22 @@
                 "meta.definition.variable",
                 "meta.var-single-variable.expr",
                 "meta.var.expr",
-                "variable.other.constant",
+                "variable.other.constant"
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#09466e"
+                "foreground": "#09466E"
+            }
+        },
+        {
+            "name": "Variables - Class this/super",
+            "scope": [
+                "variable.language.this",
+                "variable.language.super"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#000"
             }
         },
         {
@@ -118,7 +225,7 @@
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#09466e"
+                "foreground": "#09466E"
             }
         },
         {
@@ -220,7 +327,7 @@
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#9c6b00"
+                "foreground": "#9C6B00"
             }
         },
         {
@@ -232,7 +339,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#09466e"
+                "foreground": "#09466E"
             }
         },
         {
@@ -244,7 +351,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#09466e"
+                "foreground": "#09466E"
             }
         },
         {
@@ -254,7 +361,7 @@
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#09466e"
+                "foreground": "#09466E"
             }
         },
         {
@@ -371,7 +478,7 @@
                 "punctuation.definition.tag.end.jsx",
                 "punctuation.definition.tag.end.tsx",
                 "punctuation.definition.tag.end.html",
-                "punctuation.definition.tag.html",
+                "punctuation.definition.tag.html"
             ],
             "settings": {
                 "foreground": "#2E2A2E"
