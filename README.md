@@ -11,15 +11,27 @@ Don't expect any fancy colors.
 More colors equals more distraction, we don't want to waste cognitive capacity
 on that. The goal of this theme is to have the minimum meaningful  colors.
 
+Languages specific tweaks
+-------------------------
+
+- TypeScript
+- JavaScript
+- JSX, TSX
+- Bash
+
+Others comming soon...
+
 Preview
 -------
 
 - Font used [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 - Icons used [vscode-icons](https://github.com/vscode-icons/vscode-icons)
 
-![React](./examples/tsx.png)
+![React Class](./examples/class.png)
 
-![TypeScript](./examples/ts.png)
+![React Element](./examples/elem.png)
+
+![TypeScript](./examples/basic.png)
 
 ![HTML](./examples/html.png)
 
