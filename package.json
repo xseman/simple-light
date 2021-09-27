@@ -8,11 +8,11 @@
     "icon": "icon.png",
     "author": {
         "name": "Filip Seman",
-        "email": "seman.filip@gmail.com"
+        "email": "filip.seman@protonmail.com"
     },
     "repository": {
         "type": "git",
-        "url": "https://gitlab.com/xseman/vscode-simple-light-theme"
+        "url": "https://github.com/xseman/vscode-simple-light-theme"
     },
     "engines": {
         "vscode": "^1.57.0"
