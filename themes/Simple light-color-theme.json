@@ -213,6 +213,39 @@
                 "variable.language.super"
             ],
             "settings": {
+                "fontStyle": "",
+                "foreground": "#000"
+            }
+        },
+        {
+            "name": "TSX, JSX: Props",
+            "scope": [
+                "entity.other.attribute-name.tsx",
+                "entity.other.attribute-name.jsx"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#09466E"
+            }
+        },
+        {
+            "name": "TSX, JSX: Component",
+            "scope": [
+                "support.class.component.jsx",
+                "support.class.component.tsx",
+            ],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#000"
+            }
+        },
+        {
+            "name": "TypeScript/TSX",
+            "scope": [
+                "entity.name.type.interface.tsx",
+                "entity.name.type.tsx"
+            ],
+            "settings": {
                 "fontStyle": "bold",
                 "foreground": "#000"
             }
@@ -361,7 +394,7 @@
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#09466E"
+                "foreground": "#000"
             }
         },
         {
