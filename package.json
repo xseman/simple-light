@@ -20,6 +20,12 @@
     "categories": [
         "Themes"
     ],
+    "keywords": [
+        "theme",
+        "light",
+        "light theme",
+        "simple theme"
+    ],
     "contributes": {
         "themes": [
             {
