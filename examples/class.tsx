@@ -1,8 +1,6 @@
 import React from "react";
 
-export interface Props {
-    name: string;
-}
+export interface Props { name: string; }
 export interface State {}
 
 class HelloWorld extends React.Component<Props, State> {
@@ -13,7 +11,9 @@ class HelloWorld extends React.Component<Props, State> {
 
     render() {
         const hello = `Hello World from ${this.props.name}`;
-        return <div>{hello}</div>;
+        return (
+            <div>{hello}</div>
+        );
     }
 }
 
