@@ -37,9 +37,10 @@
     },
     "scripts": {
         "package": "vsce package",
-        "publish": "vsce publish"
+        "publish": "vsce publish",
+        "release": "npm run package && npm run publish"
     },
     "dependencies": {
-        "vsce": "2.6.0"
+        "vsce": "2.6.3"
     }
 }
