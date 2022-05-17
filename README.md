@@ -31,31 +31,31 @@ Others comming soon...
 
 **JavaScript**
 
-![JavaScript][JavaScript]
+![JavaScript](./images/JavaScript.png)
 
 **HTML**
 
-![HTML][HTML]
+![HTML](./images/HTML.png)
 
 **CSS**
 
-![CSS][CSS]
+![CSS](./images/CSS.png)
 
 **Go**
 
-![Go][Go]
+![Go](./images/Go.png)
 
 **Java**
 
-![Java][Java]
+![Java](./images/Java.png)
 
 **Python**
 
-![Python][Python]
+![Python](./images/Python.png)
 
 **C++**
 
-![C++][C++]
+![C++](./images/C++.png)
 
 ## Contributors
 
@@ -70,11 +70,3 @@ Thank for feedback:
 
 [inspired-by]: https://github.com/karsany/vscode-ideal-theme
 [gitlab-theme]: https://docs.gitlab.com/ee/user/profile/preferences.html#syntax-highlighting-theme
-
-[JavaScript]: ./images/JavaScript.png
-[HTML]: ./images/HTML.png
-[CSS]: ./images/CSS.png
-[Go]: ./images/Go.png
-[Java]: ./images/Java.png
-[Python]: ./images/Python.png
-[C++]: ./images/C++.png
