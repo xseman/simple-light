@@ -14,11 +14,13 @@ on that. The goal of this theme is to have the minimum meaningful colors.
 
 - TypeScript
 - JavaScript
-- JSX, TSX
+- HTML
+- Java
+- Go
+- C++
 - Bash
 - Markdown
-- CSS, Less
-- HTML
+- CSS, SCSS, Less
 
 Others comming soon...
 
@@ -27,13 +29,52 @@ Others comming soon...
 - Font used [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 - Icons used [vscode-icons](https://github.com/vscode-icons/vscode-icons)
 
-| Language   | Preview                            |
-| ---------- | ---------------------------------- |
-| TypeScript | ![ts](./examples/basic.png)        |
-| TSX        | ![tsx-elem](./examples/elem.png)   |
-| TSX        | ![tsx-class](./examples/class.png) |
-| HTML       | ![html](./examples/html.png)       |
-| CSS        | ![css](./examples/css.png)         |
+**JavaScript**
+
+![JavaScript][JavaScript]
+
+**HTML**
+
+![HTML][HTML]
+
+**CSS**
+
+![CSS][CSS]
+
+**Go**
+
+![Go][Go]
+
+**Java**
+
+![Java][Java]
+
+**Python**
+
+![Python][Python]
+
+**C++**
+
+![C++][C++]
+
+## Contributors
+
+Thank for feedback:
+
+- @MarcelGeo
+- @dderevjanik
+
+## Related projects
+
+– [vscode-ideal-theme][inspired-by] – IDEA like light Theme
 
 [inspired-by]: https://github.com/karsany/vscode-ideal-theme
 [gitlab-theme]: https://docs.gitlab.com/ee/user/profile/preferences.html#syntax-highlighting-theme
+
+[JavaScript]: ./images/JavaScript.png
+[HTML]: ./images/HTML.png
+[CSS]: ./images/CSS.png
+[Go]: ./images/Go.png
+[Java]: ./images/Java.png
+[Python]: ./images/Python.png
+[C++]: ./images/C++.png
