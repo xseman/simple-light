@@ -4,27 +4,27 @@
     "colors": {
         "activityBar.background": "#F2F2F2",
         "activityBar.border": "#BCBCBC",
-        "activityBar.foreground": "#000000",
+        "activityBar.foreground": "#000",
         "editor.background": "#FFFFFF",
-        "editor.foreground": "#000000",
+        "editor.foreground": "#000",
         "editor.lineHighlightBackground": "#FFFAE3",
         "editor.selectionHighlightBackground": "#F6EBBC",
         "editor.wordHighlightBackground": "#0066FF2A",
         "editor.wordHighlightStrongBackground": "#0066FF2A",
         "editorGutter.background": "#FFFFFF",
-        "editorLineNumber.activeForeground": "#000000",
+        "editorLineNumber.activeForeground": "#000",
         "editorLineNumber.foreground": "#C1C1C1",
         "list.activeSelectionBackground": "#1177AA",
         "list.focusHighlightForeground": "#FFFFFF",
         "list.highlightForeground": "#1177AA",
         "sideBar.background": "#FFFFFF",
         "sideBar.border": "#C0C0C0",
-        "sideBar.foreground": "#000000",
+        "sideBar.foreground": "#000",
         "sideBarSectionHeader.background": "#D4D4D4",
         "statusBar.background": "#F2F2F2",
         "statusBar.border": "#C0C0C0",
         "statusBar.debuggingForeground": "#FFFFFF",
-        "statusBar.foreground": "#000000",
+        "statusBar.foreground": "#000",
         "statusBar.noFolderForeground": "#FFFFFF",
         "tab.activeBorder": "#C0C0C0",
         "tab.border": "#C0C0C0",
@@ -39,7 +39,7 @@
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#000000"
+                "foreground": "#000"
             }
         },
         {
@@ -50,7 +50,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#000000"
+                "foreground": "#000"
             }
         },
         {
@@ -60,7 +60,7 @@
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#000000"
+                "foreground": "#000"
             }
         },
         {
@@ -71,7 +71,7 @@
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#000000"
+                "foreground": "#000"
             }
         },
         {
@@ -93,7 +93,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#000000"
+                "foreground": "#000"
             }
         },
         {
@@ -113,7 +113,7 @@
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#000000"
+                "foreground": "#000"
             }
         },
         {
@@ -123,7 +123,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#000000"
+                "foreground": "#000"
             }
         },
         {
@@ -133,7 +133,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#000000"
+                "foreground": "#000"
             }
         },
         {
@@ -143,7 +143,7 @@
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#000000"
+                "foreground": "#000"
             }
         },
         {
@@ -168,7 +168,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#000000"
+                "foreground": "#000"
             }
         },
         {
@@ -178,7 +178,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#000000"
+                "foreground": "#000"
             }
         },
         {
@@ -189,7 +189,7 @@
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#000000"
+                "foreground": "#000"
             }
         },
         {
@@ -199,7 +199,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#000000"
+                "foreground": "#000"
             }
         },
         {
@@ -245,7 +245,7 @@
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#000000"
+                "foreground": "#000"
             }
         },
         {
@@ -265,7 +265,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#000000"
+                "foreground": "#000"
             }
         },
         {
@@ -275,7 +275,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#000000"
+                "foreground": "#000"
             }
         },
         {
@@ -285,7 +285,7 @@
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#000000"
+                "foreground": "#000"
             }
         },
         {
@@ -295,7 +295,7 @@
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#000000"
+                "foreground": "#000"
             }
         },
         {
@@ -308,7 +308,7 @@
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#000000"
+                "foreground": "#000"
             }
         },
         {
@@ -353,7 +353,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#000000"
+                "foreground": "#000"
             }
         },
         {
@@ -377,7 +377,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#000000"
+                "foreground": "#000"
             }
         },
         {
@@ -388,7 +388,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#000000"
+                "foreground": "#000"
             }
         },
         {
@@ -422,7 +422,7 @@
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#000000"
+                "foreground": "#000"
             }
         },
         {
@@ -432,7 +432,7 @@
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#000000"
+                "foreground": "#000"
             }
         },
         {
@@ -442,7 +442,7 @@
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#000000"
+                "foreground": "#000"
             }
         },
         {
@@ -486,7 +486,7 @@
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#000000"
+                "foreground": "#000"
             }
         },
         {
@@ -496,7 +496,7 @@
                 "support.function"
             ],
             "settings": {
-                "foreground": "#000000"
+                "foreground": "#000"
             }
         },
         {
@@ -507,7 +507,7 @@
                 "support.class"
             ],
             "settings": {
-                "foreground": "#000000"
+                "foreground": "#000"
             }
         },
         {
@@ -578,7 +578,7 @@
                 "text source"
             ],
             "settings": {
-                "foreground": "#000000"
+                "foreground": "#000"
             }
         },
         {
@@ -645,7 +645,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#000000"
+                "foreground": "#000"
             }
         },
         {
@@ -675,7 +675,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#000000"
+                "foreground": "#000"
             }
         },
         {
@@ -710,14 +710,14 @@
             "name": "Markup: Changed",
             "scope": "markup.changed",
             "settings": {
-                "foreground": "#000000"
+                "foreground": "#000"
             }
         },
         {
             "name": "Markup: Deletion",
             "scope": "markup.deleted",
             "settings": {
-                "foreground": "#000000"
+                "foreground": "#000"
             }
         },
         {
@@ -738,7 +738,7 @@
             "name": "Markup: Insertion",
             "scope": "markup.inserted",
             "settings": {
-                "foreground": "#000000"
+                "foreground": "#000"
             }
         },
         {
@@ -804,7 +804,7 @@
             "name": "Markup Lists",
             "scope": "markup.list",
             "settings": {
-                "foreground": "#4B83CD"
+                "foreground": "#000"
             }
         },
         {
@@ -873,7 +873,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#000000"
+                "foreground": "#000"
             }
         },
         {
