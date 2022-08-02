@@ -41,6 +41,6 @@
         "release": "npm run package && npm run publish"
     },
     "dependencies": {
-        "vsce": "2.7.0"
+        "vsce": "2.10.0"
     }
 }
