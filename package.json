@@ -1,6 +1,6 @@
 {
     "name": "simple-light",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "license": "MIT",
     "displayName": "Simple light",
     "description": "Simple light theme",
@@ -12,7 +12,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/xseman/vscode-simple-light-theme"
+        "url": "https://github.com/xseman/simple-light"
     },
     "engines": {
         "vscode": "^1.57.0"
