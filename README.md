@@ -26,36 +26,38 @@ Others comming soon...
 
 ## Preview
 
-- Font used [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
-- Icons used [vscode-icons](https://github.com/vscode-icons/vscode-icons)
+<img src="https://images.vscodethemes.com/xseman.simple-light/simple-light-js-preview-6m4.svg" width="540px">
 
-**JavaScript**
+<details>
+	<summary>Go</summary>
+	<img src="https://images.vscodethemes.com/xseman.simple-light/simple-light-go-preview-6m4.svg" width="540px">
+</details>
 
-![JavaScript](./images/JavaScript.png)
+<details>
+	<summary>Java</summary>
+	<img src="https://images.vscodethemes.com/xseman.simple-light/simple-light-java-preview-6m4.svg" width="540px">
+</details>
 
-**HTML**
+<details>
+	<summary>HTML</summary>
+	<img src="https://images.vscodethemes.com/xseman.simple-light/simple-light-html-preview-6m4.svg" width="540px">
+</details>
 
-![HTML](./images/HTML.png)
+<details>
+	<summary>CSS</summary>
+	<img src="https://images.vscodethemes.com/xseman.simple-light/simple-light-css-preview-6m4.svg" width="540px">
+</details>
 
-**CSS**
 
-![CSS](./images/CSS.png)
+<details>
+	<summary>Python</summary>
+	<img src="https://images.vscodethemes.com/xseman.simple-light/simple-light-py-preview-6m4.svg" width="540px">
+</details>
 
-**Go**
-
-![Go](./images/Go.png)
-
-**Java**
-
-![Java](./images/Java.png)
-
-**Python**
-
-![Python](./images/Python.png)
-
-**C++**
-
-![C++](./images/C++.png)
+<details>
+	<summary>C++</summary>
+	<img src="https://images.vscodethemes.com/xseman.simple-light/simple-light-cpp-preview-6m4.svg" width="540px">
+</details>
 
 ## Contributors
 
