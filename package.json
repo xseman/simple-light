@@ -1,46 +1,51 @@
 {
-    "name": "simple-light",
-    "version": "0.0.9",
-    "license": "MIT",
-    "displayName": "Simple light",
-    "description": "Simple light theme",
-    "publisher": "xseman",
-    "icon": "icon.png",
-    "author": {
-        "name": "Filip Seman",
-        "email": "filip.seman@protonmail.com"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/xseman/simple-light"
-    },
-    "engines": {
-        "vscode": "^1.57.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "keywords": [
-        "theme",
-        "light",
-        "light theme",
-        "simple theme"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Simple light",
-                "uiTheme": "vs",
-                "path": "./themes/Simple light-color-theme.json"
-            }
-        ]
-    },
-    "scripts": {
-        "package": "vsce package",
-        "publish": "vsce publish",
-        "release": "npm run package && npm run publish"
-    },
-    "dependencies": {
-        "vsce": "2.10.0"
-    }
+	"name": "simple-light",
+	"version": "0.0.9",
+	"license": "Apache-2.0",
+	"displayName": "Simple light",
+	"description": "Simple light theme",
+	"publisher": "xseman",
+	"icon": "icon.png",
+	"author": {
+		"name": "Filip Seman",
+		"email": "filip.seman@pm.me"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/xseman/simple-light"
+	},
+	"keywords": [
+		"theme",
+		"light",
+		"light theme",
+		"simple theme"
+	],
+	"engines": {
+		"vscode": "^1.57.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Simple light",
+				"uiTheme": "vs",
+				"path": "./themes/Simple light-color-theme.json"
+			}
+		]
+	},
+	"scripts": {
+		"package": "vsce package",
+		"publish": "vsce publish",
+		"release": "npm run package && npm run publish",
+		"fmt": "dprint fmt",
+		"fmt:check": "dprint check"
+	},
+	"dependencies": {
+		"@vscode/vsce": "^3.2.0"
+	},
+	"devDependencies": {
+		"dprint": "^0.47.0"
+	}
 }
