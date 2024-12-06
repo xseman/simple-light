@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.11](https://github.com/xseman/simple-light/compare/v0.0.10...v0.0.11) (2024-12-06)
+
+
+### Maintenance
+
+* fix node version ([35ee1f2](https://github.com/xseman/simple-light/commit/35ee1f26fb4b0b8f279bed68892ce4d4a7b2b97f))
+* update release ([d717fd8](https://github.com/xseman/simple-light/commit/d717fd8e2c000a17fee109dee9d625829ef7f1f9))
+
 ## [0.0.10](https://github.com/xseman/simple-light/compare/v0.0.9...v0.0.10) (2024-12-06)
 
 
