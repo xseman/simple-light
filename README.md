@@ -1,16 +1,16 @@
-# Simple light theme
+# Simple Light Theme
 
-Inspired by [IDEA like light Theme][inspired-by] and [GitLabs][gitlab-theme]
+Inspired by [IDEA like light Theme][inspired-by] and [GitLab's][gitlab-theme]
 light highlighting syntax.
 
 ## Goal
 
 Don't expect any fancy colors.
 
-More colors equals more distraction, we don't want to waste cognitive capacity
+More colors equal more distraction; we don't want to waste cognitive capacity
 on that. The goal of this theme is to have the minimum meaningful colors.
 
-## Supported languages
+## Supported Languages
 
 - TypeScript
 - JavaScript
@@ -22,53 +22,21 @@ on that. The goal of this theme is to have the minimum meaningful colors.
 - Markdown
 - CSS, SCSS, Less
 
-Others comming soon...
+Others coming soon...
 
 ## Preview
 
-<img src="https://images.vscodethemes.com/xseman.simple-light/simple-light-js-preview-6m4.svg" width="540px">
+![JavaScript preview](docs/js-preview.png)
+![Go preview](docs/go-preview.png)
+![Java preview](docs/java-preview.png)
+![HTML preview](docs/html-preview.png)
+![CSS preview](docs/css-preview.png)
+![Python preview](docs/py-preview.png)
+![C++ preview](docs/cpp-preview.png)
 
-<details>
-	<summary>Go</summary>
-	<img src="https://images.vscodethemes.com/xseman.simple-light/simple-light-go-preview-6m4.svg" width="540px">
-</details>
+## Related
 
-<details>
-	<summary>Java</summary>
-	<img src="https://images.vscodethemes.com/xseman.simple-light/simple-light-java-preview-6m4.svg" width="540px">
-</details>
-
-<details>
-	<summary>HTML</summary>
-	<img src="https://images.vscodethemes.com/xseman.simple-light/simple-light-html-preview-6m4.svg" width="540px">
-</details>
-
-<details>
-	<summary>CSS</summary>
-	<img src="https://images.vscodethemes.com/xseman.simple-light/simple-light-css-preview-6m4.svg" width="540px">
-</details>
-
-
-<details>
-	<summary>Python</summary>
-	<img src="https://images.vscodethemes.com/xseman.simple-light/simple-light-py-preview-6m4.svg" width="540px">
-</details>
-
-<details>
-	<summary>C++</summary>
-	<img src="https://images.vscodethemes.com/xseman.simple-light/simple-light-cpp-preview-6m4.svg" width="540px">
-</details>
-
-## Contributors
-
-Thank for feedback:
-
-- @MarcelGeo
-- @dderevjanik
-
-## Related projects
-
-– [vscode-ideal-theme][inspired-by] – IDEA like light Theme
+- [vscode-ideal-theme][inspired-by] – IDEA like light Theme
 
 [inspired-by]: https://github.com/karsany/vscode-ideal-theme
 [gitlab-theme]: https://docs.gitlab.com/ee/user/profile/preferences.html#syntax-highlighting-theme
