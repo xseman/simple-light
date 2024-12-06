@@ -4,6 +4,12 @@ on:
     push:
         branches:
             - master
+    workflow_dispatch:
+        inputs:
+            tag:
+                description: release git tag manually
+                required: false
+                type: string
 
 permissions:
     contents: write
@@ -22,17 +28,17 @@ jobs:
                   token: ${{ secrets.RELEASE_PLEASE_TOKEN }}
 
             - uses: actions/checkout@v4
-              if: ${{ steps.release.outputs.release_created }}
+              if: ${{ steps.release.outputs.release_created || github.event.inputs.tag }}
 
             - uses: actions/setup-node@v4
-              if: ${{ steps.release.outputs.release_created }}
+              if: ${{ steps.release.outputs.release_created || github.event.inputs.tag }}
               with:
                   node-version-file: ".nvmrc"
                   registry-url: "https://registry.npmjs.org"
                   cache: npm
 
             - name: Build and publish on VS Code Marketplace
-              if: ${{ steps.release.outputs.release_created }}
+              if: ${{ steps.release.outputs.release_created || github.event.inputs.tag }}
               env:
                   VSCE_PAT: ${{ secrets.VSCE_PAT }}
               run: |
