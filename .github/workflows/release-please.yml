@@ -1,0 +1,41 @@
+name: release-please
+
+on:
+    push:
+        branches:
+            - master
+
+permissions:
+    contents: write
+    pull-requests: write
+    id-token: write
+
+jobs:
+    release:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: googleapis/release-please-action@v4
+              id: release
+              with:
+                  manifest-file: .github/.release-manifest.json
+                  config-file: .github/.release-config.json
+                  token: ${{ secrets.RELEASE_PLEASE_TOKEN }}
+
+            - uses: actions/checkout@v4
+              if: ${{ steps.release.outputs.release_created }}
+
+            - uses: actions/setup-node@v4
+              if: ${{ steps.release.outputs.release_created }}
+              with:
+                  node-version-file: ".nvmrc"
+                  registry-url: "https://registry.npmjs.org"
+                  cache: npm
+
+            - name: Build and publish on VS Code Marketplace
+              if: ${{ steps.release.outputs.release_created }}
+              env:
+                  VSCE_PAT: ${{ secrets.VSCE_PAT }}
+              run: |
+                  npm install
+                  npx vsce package
+                  npx vsce publish
