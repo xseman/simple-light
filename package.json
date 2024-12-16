@@ -31,7 +31,7 @@
 			{
 				"label": "Simple light",
 				"uiTheme": "vs",
-				"path": "./themes/Simple light-color-theme.json"
+				"path": "./themes/light.json"
 			}
 		]
 	},
