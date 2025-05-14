@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd "$(dirname "$0")" || exit 1
+
 declare -A images=(
 	["js-preview"]="https://images.vscodethemes.com/xseman.simple-light/simple-light-js-preview-6m4.svg"
 	["go-preview"]="https://images.vscodethemes.com/xseman.simple-light/simple-light-go-preview-6m4.svg"
@@ -17,7 +19,9 @@ for name in "${!images[@]}"; do
 	png_path="${name}.png"
 
 	curl -o "${svg_path}" "${url}"
-	convert "${svg_path}" -quality 100 "${png_path}"
+	inkscape \
+		--export-filename="${png_path}" \
+		--export-dpi=300 "${svg_path}"
 
 	rm "${svg_path}"
 done
