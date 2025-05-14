@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.11](https://github.com/xseman/simple-light/compare/v0.0.10...v0.0.11) (2025-05-14)
+
+
+### Documentation
+
+* update README and update image processing script ([8044173](https://github.com/xseman/simple-light/commit/80441730b1cb9976ed922227dc1d51d1824da567))
+
+
+### Maintenance
+
+* fix node version ([35ee1f2](https://github.com/xseman/simple-light/commit/35ee1f26fb4b0b8f279bed68892ce4d4a7b2b97f))
+* published artefacts ([87641ce](https://github.com/xseman/simple-light/commit/87641ce889c43c0d12b2212a0e18782a1eefadbd))
+* rename theme file ([aba0a58](https://github.com/xseman/simple-light/commit/aba0a58ab8a2ddee07fdb340eae030da861ba017))
+* update Node.js version and remove .nvmrc file ([7cc8440](https://github.com/xseman/simple-light/commit/7cc84402dce7e5a67353e49e5afa8bcedbb714bd))
+* update release ([d717fd8](https://github.com/xseman/simple-light/commit/d717fd8e2c000a17fee109dee9d625829ef7f1f9))
+
 ## [0.0.10](https://github.com/xseman/simple-light/compare/v0.0.9...v0.0.10) (2024-12-06)
 
 
