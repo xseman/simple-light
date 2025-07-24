@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.2.0](https://github.com/xseman/simple-light/compare/v0.1.0...v0.2.0) (2025-07-24)
+
+
+### Features
+
+* update color values in light theme ([9cf07ec](https://github.com/xseman/simple-light/commit/9cf07ec474798127ad3cf984e7001a12751eac6a))
+
+
+### Maintenance
+
+* cleanup ([04b4920](https://github.com/xseman/simple-light/commit/04b492065cc19d3314992dd0f467a65473410614))
+
 ## [0.1.0](https://github.com/xseman/simple-light/compare/v0.0.10...v0.1.0) (2025-07-24)
 
 
