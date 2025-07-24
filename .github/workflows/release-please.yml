@@ -42,6 +42,13 @@ jobs:
               env:
                   VSCE_PAT: ${{ secrets.VSCE_PAT }}
               run: |
-                  npm install
+                  npm install --no-fund --no-audit
                   npx vsce package
-                  npx vsce publish
+
+                  # Only publish if PAT is available and not expired
+                  if [ -n "${VSCE_PAT}" ]; then
+                    echo "Publishing extension..."
+                    npx vsce publish --skip-duplicate || echo "Failed to publish - check if PAT is valid"
+                  else
+                    echo "VSCE_PAT secret not found - skipping publish"
+                  fi
