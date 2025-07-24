@@ -1,7 +1,10 @@
 # 💡 Simple Light Theme
 
-Inspired by [IDEA like light Theme][inspired-by], [GitLab's][gitlab-theme] &
-[VSCode][vscode-light-modern] light highlighting syntax.
+Inspired by
+
+- [IDEA like light Theme][inspired-by] syntax
+- [GitLab's][gitlab-theme] syntax
+- [VSCode][vscode-light-modern] light theme
 
 ## Goal
 

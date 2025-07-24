@@ -43,9 +43,9 @@
 		"fmt:check": "dprint check"
 	},
 	"dependencies": {
-		"@vscode/vsce": "^3.2.0"
+		"@vscode/vsce": "^3.6.0"
 	},
 	"devDependencies": {
-		"dprint": "^0.47.0"
+		"dprint": "^0.50.0"
 	}
 }
