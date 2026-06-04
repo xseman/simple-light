@@ -37,18 +37,20 @@ jobs:
                   node-version: 24
                   registry-url: "https://registry.npmjs.org"
 
-            - name: Build and publish on VS Code Marketplace
+            - name: Build and publish
               if: ${{ steps.release.outputs.release_created || github.event.inputs.tag }}
               env:
                   VSCE_PAT: ${{ secrets.VSCE_PAT }}
+                  OVSX_PAT: ${{ secrets.OVSX_PAT }}
               run: |
+                  : "${VSCE_PAT:?VSCE_PAT secret is not set}"
+                  : "${OVSX_PAT:?OVSX_PAT secret is not set}"
+
                   npm install --no-fund --no-audit
                   npx vsce package
 
-                  # Only publish if PAT is available and not expired
-                  if [ -n "${VSCE_PAT}" ]; then
-                    echo "Publishing extension..."
-                    npx vsce publish --skip-duplicate || echo "Failed to publish - check if PAT is valid"
-                  else
-                    echo "VSCE_PAT secret not found - skipping publish"
-                  fi
+                  echo "Publishing to VS Code Marketplace..."
+                  npx vsce publish --skip-duplicate
+
+                  echo "Publishing to Open VSX Registry..."
+                  npx ovsx publish --skip-duplicate
