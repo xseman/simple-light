@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.5.0](https://github.com/xseman/simple-light/compare/v0.4.0...v0.5.0) (2026-06-04)
+
+
+### Features
+
+* add diff editor color settings ([79485a7](https://github.com/xseman/simple-light/commit/79485a70d436b674c4ded0b438da180a9c0a7f24))
+* add ovsx publish source ([13b4593](https://github.com/xseman/simple-light/commit/13b4593bcc4a6845f29ed8e319362011b1e2090f))
+
 ## [0.4.0](https://github.com/xseman/simple-light/compare/v0.3.0...v0.4.0) (2025-07-25)
 
 
