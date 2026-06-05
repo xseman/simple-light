@@ -13,6 +13,30 @@ Don't expect any fancy colors.
 More colors equal more distraction; we don't want to waste cognitive capacity
 on that. The goal of this theme is to have the minimum meaningful colors.
 
+## Install
+
+### VS Code
+
+Search for **Simple light** in the Extensions view (`Ctrl+Shift+X`), or set it
+in your `settings.json`:
+
+```json
+{
+	"workbench.colorTheme": "Simple light"
+}
+```
+
+### Zed
+
+Search for **Simple Light** in Zed's extension marketplace (`zed: extensions`),
+or set it in your `~/.config/zed/settings.json`:
+
+```json
+{
+	"theme": "Simple Light"
+}
+```
+
 ## Preview
 
 | Language       | Preview                                                         |

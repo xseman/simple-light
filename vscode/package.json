@@ -39,16 +39,14 @@
 		"package": "vsce package",
 		"publish:vsce": "vsce publish",
 		"publish:ovsx": "ovsx publish",
-		"release": "npm run package && npm run publish:vsce && npm run publish:ovsx",
+		"release": "bun run package && bun run publish:vsce && bun run publish:ovsx",
 		"fmt": "dprint fmt",
 		"fmt:check": "dprint check"
 	},
-	"dependencies": {
-		"@vscode/vsce": "^3.9.1",
-		"ovsx": "^1.0.0"
-	},
 	"devDependencies": {
 		"@types/node": "^25.9.1",
-		"dprint": "^0.54.0"
+		"dprint": "^0.54.0",
+		"@vscode/vsce": "^3.9.1",
+		"ovsx": "^1.0.0"
 	}
 }

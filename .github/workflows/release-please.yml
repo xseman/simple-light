@@ -6,19 +6,26 @@ on:
             - master
     workflow_dispatch:
         inputs:
-            tag:
-                description: release git tag manually
-                required: false
+            vscode_release:
+                description: "Publish VS Code extension"
+                type: boolean
+                default: false
+            vscode_tag:
+                description: "Tag to publish from (e.g., v0.4.0)"
                 type: string
+                required: false
 
 permissions:
     contents: write
     pull-requests: write
-    id-token: write
 
 jobs:
-    release:
+    release-please:
+        name: Release Please
         runs-on: ubuntu-latest
+        outputs:
+            release_created: ${{ steps.release.outputs.release_created }}
+            tag_name: ${{ steps.release.outputs.tag_name }}
         steps:
             - uses: googleapis/release-please-action@v4
               id: release
@@ -27,30 +34,38 @@ jobs:
                   config-file: .github/.release-config.json
                   token: ${{ secrets.RELEASE_PLEASE_TOKEN }}
 
-            - uses: actions/checkout@v4
-              if: ${{ steps.release.outputs.release_created || github.event.inputs.tag }}
-
-            - uses: actions/setup-node@v4
-              if: ${{ steps.release.outputs.release_created || github.event.inputs.tag }}
+    vscode-publish:
+        name: Publish VS Code Extension
+        needs: release-please
+        if: ${{ (github.event_name == 'push' && needs.release-please.outputs.release_created) || (github.event_name == 'workflow_dispatch' && inputs.vscode_release == true) }}
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v6
               with:
-                  cache: npm
-                  node-version: 24
-                  registry-url: "https://registry.npmjs.org"
+                  ref: ${{ inputs.vscode_tag || github.ref }}
 
-            - name: Build and publish
-              if: ${{ steps.release.outputs.release_created || github.event.inputs.tag }}
+            - uses: oven-sh/setup-bun@v2
+
+            - name: Install
+              working-directory: vscode
+              run: bun install --frozen-lockfile
+
+            - name: Package
+              working-directory: vscode
+              run: |
+                  # LICENSE and CHANGELOG live at the repo root; vsce only
+                  # packages files inside the extension directory.
+                  cp ../LICENSE ../CHANGELOG.md .
+                  bunx vsce package --no-dependencies --out simple-light.vsix
+
+            - name: Publish to VS Code Marketplace
+              working-directory: vscode
               env:
                   VSCE_PAT: ${{ secrets.VSCE_PAT }}
+              run: bunx vsce publish --no-dependencies --skip-duplicate --packagePath simple-light.vsix
+
+            - name: Publish to Open VSX Registry
+              working-directory: vscode
+              env:
                   OVSX_PAT: ${{ secrets.OVSX_PAT }}
-              run: |
-                  : "${VSCE_PAT:?VSCE_PAT secret is not set}"
-                  : "${OVSX_PAT:?OVSX_PAT secret is not set}"
-
-                  npm install --no-fund --no-audit
-                  npx vsce package
-
-                  echo "Publishing to VS Code Marketplace..."
-                  npx vsce publish --skip-duplicate
-
-                  echo "Publishing to Open VSX Registry..."
-                  npx ovsx publish --skip-duplicate
+              run: bunx ovsx publish simple-light.vsix --skip-duplicate

@@ -3,12 +3,20 @@
 	"last-release-sha": "6b40f29a44a09cdf0edef08786258f822ab73f52",
 	"packages": {
 		".": {
-			"release-type": "node",
+			"release-type": "simple",
 			"include-v-in-tag": true,
 			"include-component-in-tag": false,
 			"pull-request-title-pattern": "v${version}",
 			"pull-request-header": "",
-			"pull-request-footer": ""
+			"pull-request-footer": "",
+			"extra-files": [
+				{
+					"type": "json",
+					"path": "vscode/package.json",
+					"jsonpath": "$.version"
+				},
+				"extension.toml"
+			]
 		}
 	},
 	"changelog-sections": [
