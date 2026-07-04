@@ -15,7 +15,8 @@
 					"path": "vscode/package.json",
 					"jsonpath": "$.version"
 				},
-				"extension.toml"
+				"zed/extension.toml",
+				"extensions.toml"
 			]
 		}
 	},
