@@ -7,17 +7,12 @@
             "name": "Simple Light",
             "appearance": "light",
             "style": {
-                "editor.diff_hunk.added.background": "#CDE8BBFF",
-                "editor.diff_hunk.added.hollow_background": "#CDE8BB40",
-                "editor.diff_hunk.deleted.background": "#FFCDD2FF",
-                "editor.diff_hunk.deleted.hollow_background": "#FFCDD240",
-
                 "background": "#F8F8F8FF",
                 "surface.background": "#F8F8F8FF",
                 "elevated_surface.background": "#F8F8F8FF",
                 "drop_target.background": "#E7EFFD80",
 
-                "border": "#C4C4C4FF",
+                "border": "#9E9E9EFF",
                 "border.variant": "#E5E5E5FF",
                 "border.focused": "#88ADF7FF",
                 "border.selected": "#88ADF7FF",
@@ -27,7 +22,7 @@
                 "element.background": "#E7EFFDFF",
                 "element.hover": "#DAE6FDFF",
                 "element.active": "#C9DAFBFF",
-                "element.selected": "#DFE1E5FF",
+                "element.selected": "#EFEFEFFF",
                 "element.disabled": "#EBECF0FF",
 
                 "ghost_element.background": "#00000000",
@@ -56,10 +51,23 @@
                 "tab.active_background": "#FFFFFFFF",
                 "tab.inactive_background": "#F8F8F8FF",
 
+                "pane.focused_border": "#88ADF7FF",
+
                 "panel.background": "#FFFFFFFF",
                 "panel.focused_border": "#88ADF7FF",
-                "pane.focused_border": "#88ADF7FF",
                 "pane_group.border": "#E5E5E5FF",
+
+                "editor.indent_guide": "#D6D6D6FF",
+                "editor.indent_guide_hover": "#919191FF",
+                "editor.indent_guide_active": "#919191FF",
+
+                "panel.indent_guide": "#919191FF",
+                "panel.indent_guide_hover": "#919191FF",
+                "panel.indent_guide_active": "#919191FF",
+
+                "editor.document_highlight.read_background": "#EDEBFCFF",
+                "editor.document_highlight.write_background": "#FCE8F4FF",
+                "editor.document_highlight.bracket_background": "#93D9D9FF",
 
                 "editor.background": "#FFFFFFFF",
                 "editor.foreground": "#000000FF",
@@ -72,17 +80,13 @@
                 "editor.invisible": "#D3D3D3FF",
                 "editor.wrap_guide": "#E5E5E51A",
                 "editor.active_wrap_guide": "#E5E5E533",
-                "editor.indent_guide": "#D3D3D3FF",
-                "editor.indent_guide_active": "#C4C4C4FF",
-                "editor.document_highlight.read_background": "#EDEBFCFF",
-                "editor.document_highlight.write_background": "#FCE8F4FF",
-                "editor.document_highlight.bracket_background": "#93D9D9FF",
 
                 "search.match_background": "#FFDD0080",
 
-                "scrollbar.thumb.background": "#C4C4C44C",
-                "scrollbar.thumb.hover_background": "#C4C4C4FF",
-                "scrollbar.thumb.border": "#C4C4C4FF",
+                "scrollbar.thumb.background": "#64646466",
+                "scrollbar.thumb.hover_background": "#646464B3",
+                "scrollbar.thumb.active_background": "#00000099",
+                "scrollbar.thumb.border": "#00000000",
                 "scrollbar.track.background": "#00000000",
                 "scrollbar.track.border": "#E5E5E5FF",
 
@@ -123,6 +127,19 @@
                 "conflict": "#DC3545FF",
                 "conflict.background": "#FDE8E8FF",
                 "conflict.border": "#DC3545FF",
+
+                "editor.diff_hunk.added.background": "#D8E8B4FF",
+                "editor.diff_hunk.added.hollow_background": "#D8E8B440",
+                "editor.diff_hunk.added.hollow_border": "#A5C77AFF",
+                "editor.diff_hunk.deleted.background": "#FFCDCDFF",
+                "editor.diff_hunk.deleted.hollow_background": "#FFCDCD40",
+                "editor.diff_hunk.deleted.hollow_border": "#E88A8AFF",
+
+                "version_control.added": "#6E7681FF",
+                "version_control.deleted": "#6E7681FF",
+                "version_control.modified": "#0033B3FF",
+                "version_control.word_added": "#00880050",
+                "version_control.word_deleted": "#FF000050",
 
                 "hidden": "#616161FF",
                 "hidden.background": "#F8F8F8FF",
@@ -260,11 +277,14 @@
                         "color": "#000000FF"
                     },
                     "punctuation.list_marker": {
-                        "color": "#000000FF"
+                        "color": "#777777FF"
+                    },
+                    "punctuation.markup": {
+                        "color": "#777777FF"
                     },
 
                     "property": {
-                        "color": "#0052A3FF"
+                        "color": "#000000FF"
                     },
                     "attribute": {
                         "color": "#000000FF"
@@ -288,22 +308,26 @@
                     },
 
                     "title": {
-                        "color": "#000000FF",
-                        "font_weight": 500
+                        "color": "#AA3731FF",
+                        "font_weight": 700
                     },
                     "emphasis": {
-                        "color": "#000000FF",
+                        "color": "#448C27FF",
                         "font_style": "italic"
                     },
                     "emphasis.strong": {
-                        "color": "#000000FF",
-                        "font_weight": 500
+                        "color": "#448C27FF",
+                        "font_weight": 700
+                    },
+                    "text.literal": {
+                        "color": "#AB6526FF"
                     },
                     "link_text": {
-                        "color": "#000000FF"
+                        "color": "#008800FF",
+                        "font_weight": 700
                     },
                     "link_uri": {
-                        "color": "#000000FF"
+                        "color": "#2D69B6FF"
                     }
                 }
             }
