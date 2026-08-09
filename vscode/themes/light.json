@@ -30,12 +30,6 @@
 
 		"descriptionForeground": "#3B3B3B",
 
-		"diffEditor.insertedLineBackground": "#CDE8BB",
-		"diffEditor.insertedTextBackground": "#00880050",
-		"diffEditor.removedLineBackground": "#FFBDBE",
-		"diffEditor.removedTextBackground": "#FF000050",
-		"diffEditor.diagonalFill": "#CCCCCC50",
-
 		"dropdown.background": "#FFFFFF",
 		"dropdown.border": "#C4C4C4",
 		"dropdown.foreground": "#3B3B3B",
