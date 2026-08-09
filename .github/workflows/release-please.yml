@@ -65,6 +65,9 @@ jobs:
               run: bunx vsce publish --no-dependencies --skip-duplicate --packagePath simple-light.vsix
 
             - name: Publish to Open VSX Registry
+              # Runs even if the Marketplace step failed, so an expired VSCE_PAT
+              # cannot block the second registry.
+              if: ${{ !cancelled() }}
               working-directory: vscode
               env:
                   OVSX_PAT: ${{ secrets.OVSX_PAT }}
