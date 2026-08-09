@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.5.0](https://github.com/xseman/simple-light/compare/v0.4.0...v0.5.0) (2026-08-09)
+
+
+### Features
+
+* add diff editor color settings ([79485a7](https://github.com/xseman/simple-light/commit/79485a70d436b674c4ded0b438da180a9c0a7f24))
+* add ovsx publish source ([13b4593](https://github.com/xseman/simple-light/commit/13b4593bcc4a6845f29ed8e319362011b1e2090f))
+* add zed config, refactor structure ([c8789cb](https://github.com/xseman/simple-light/commit/c8789cbe6e46e825c6d454b7355f88d27d77fd0e))
+* update theme files and add zed support ([3bc9c4e](https://github.com/xseman/simple-light/commit/3bc9c4e7b7ed6baf6302e11f123d080d6bd94e24))
+
+
+### Maintenance
+
+* **zed:** improve colors ([8d9f2df](https://github.com/xseman/simple-light/commit/8d9f2dfb73883a0d75c94cff81d4085e40ab116f))
+* **zed:** remove alpha channel and small changes ([759350f](https://github.com/xseman/simple-light/commit/759350f23cdd3e9a724c76cd4f808d26c096d5f7))
+
 ## [0.4.0](https://github.com/xseman/simple-light/compare/v0.3.0...v0.4.0) (2025-07-25)
 
 
