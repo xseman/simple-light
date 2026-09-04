@@ -1,7 +1,7 @@
 id = "simple-light-theme"
 name = "Simple Light"
 schema_version = 1
-version = "0.5.0" # x-release-please-version
+version = "0.5.1" # x-release-please-version
 authors = ["Filip Seman <filip.seman@pm.me>"]
 description = "Simple light theme"
 repository = "https://github.com/xseman/simple-light"

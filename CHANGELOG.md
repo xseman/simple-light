@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.5.1](https://github.com/xseman/simple-light/compare/v0.5.0...v0.5.1) (2026-08-10)
+
+
+### Maintenance
+
+* continue publishing on failed task ([ecbafa0](https://github.com/xseman/simple-light/commit/ecbafa0e8653db2fbdda20e4a24c0935841b82dd))
+* revert diff colors ([7fdbe40](https://github.com/xseman/simple-light/commit/7fdbe40c3a4692dbc1785a8d0420f4d306ff79f8))
+* **zed:** add LICENSE for extension packaging ([6b3c41a](https://github.com/xseman/simple-light/commit/6b3c41afbb043520fc63bf5ed82b35817958fa29))
+* **zed:** LICENSE as symlink ([76bfc17](https://github.com/xseman/simple-light/commit/76bfc17d8b91dc4495a19c15500fa311c5f648bb))
+
 ## [0.5.0](https://github.com/xseman/simple-light/compare/v0.4.0...v0.5.0) (2026-08-09)
 
 
